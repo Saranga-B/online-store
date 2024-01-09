@@ -1,0 +1,54 @@
+.header {
+    padding: 5px 20px 5px 15px;
+    height: fit-content;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+.header-topic h1 {
+    font-size: 40px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-links{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.horizontal-list {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    font-size: 15px;
+}
+
+.horizontal-list li {
+    cursor: pointer;
+    transition: text-decoration 0.3s ease; 
+}
+
+.horizontal-list li:hover {
+    text-decoration: underline;
+}
+.sign-in-button button{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    text-align: center;
+    align-items: center;
+}
+.sign-in-button button:hover{
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-color: black;
+}

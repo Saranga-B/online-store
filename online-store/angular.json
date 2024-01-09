@@ -5,7 +5,17 @@
   "projects": {
     "online-store": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "standalone": false
+        },
+        "@schematics/angular:directive": {
+          "standalone": false
+        },
+        "@schematics/angular:pipe": {
+          "standalone": false
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -98,6 +108,6 @@
     }
   },
   "cli": {
-    "analytics": "b1256d88-8475-471a-87e0-7550eab329b8"
+    "analytics": "acace715-0382-472b-b6ad-b7914ef4470f"
   }
 }
